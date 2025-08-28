@@ -1,0 +1,110 @@
+🔥 Fetching modules from /api/modules
+index-CSBuvlez.js:1881 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ index-CSBuvlez.js:1881
+om @ index-CSBuvlez.js:40
+Zo @ index-CSBuvlez.js:40
+yM @ index-CSBuvlez.js:40
+ya @ index-CSBuvlez.js:40
+C1 @ index-CSBuvlez.js:40
+ua @ index-CSBuvlez.js:38
+(anonymous) @ index-CSBuvlez.js:40Understand this warning
+index-CSBuvlez.js:1912 🔥 Modules fetched successfully: (4) [{…}, {…}, {…}, {…}]
+index-CSBuvlez.js:1912 🔥 Submitting stage: {method: 'POST', url: '/api/stages', payload: {…}}
+index-CSBuvlez.js:1912 🔥 Payload details: {
+  "title": "Tes",
+  "description": null,
+  "moduleId": 6,
+  "orderIndex": 1,
+  "isActive": true,
+  "stageType": "quiz",
+  "content": null,
+  "videoUrl": null,
+  "fileUrl": null,
+  "assignmentInstructions": null,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "TES1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "points": 25,
+      "explanation": "",
+      "id": 1756104118114
+    },
+    {
+      "type": "multiple_choice",
+      "question": "TES2",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "",
+      "points": 25,
+      "explanation": "",
+      "id": 1756104136650
+    },
+    {
+      "type": "essay",
+      "question": "AP?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswer": "",
+      "points": 25,
+      "explanation": "",
+      "id": 1756104146978
+    },
+    {
+      "type": "essay",
+      "question": "Bagaimana?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswer": "",
+      "points": 25,
+      "explanation": "",
+      "id": 1756104157195
+    }
+  ]
+}
+index-CSBuvlez.js:1912  POST https://cinta-kasih-humanis-it-system.replit.app/api/stages 400 (Bad Request)
+Sr @ index-CSBuvlez.js:1912
+FI @ index-CSBuvlez.js:37
+UI @ index-CSBuvlez.js:37
+$I @ index-CSBuvlez.js:37
+Yw @ index-CSBuvlez.js:37
+ZS @ index-CSBuvlez.js:37
+(anonymous) @ index-CSBuvlez.js:37
+_0 @ index-CSBuvlez.js:40
+bS @ index-CSBuvlez.js:37
+yg @ index-CSBuvlez.js:37
+Xv @ index-CSBuvlez.js:37
+sR @ index-CSBuvlez.js:37Understand this error
+index-CSBuvlez.js:1912 🔥 Error saving stage: Error: HTTP 400: 
+    at Sr (index-CSBuvlez.js:1912:25104)
+Sr @ index-CSBuvlez.js:1912
+await in Sr
+FI @ index-CSBuvlez.js:37
+UI @ index-CSBuvlez.js:37
+$I @ index-CSBuvlez.js:37
+Yw @ index-CSBuvlez.js:37
+ZS @ index-CSBuvlez.js:37
+(anonymous) @ index-CSBuvlez.js:37
+_0 @ index-CSBuvlez.js:40
+bS @ index-CSBuvlez.js:37
+yg @ index-CSBuvlez.js:37
+Xv @ index-CSBuvlez.js:37
+sR @ index-CSBuvlez.js:37Understand this error

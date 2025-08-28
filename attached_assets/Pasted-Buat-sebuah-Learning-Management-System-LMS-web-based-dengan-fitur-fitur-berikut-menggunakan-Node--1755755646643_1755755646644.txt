@@ -1,0 +1,83 @@
+Buat sebuah Learning Management System (LMS) web-based dengan fitur-fitur berikut, menggunakan Node.js (Express) untuk backend, React.js (Vite) untuk frontend, dan PostgreSQL untuk database. Pastikan kode dapat dijalankan langsung di Replit.
+
+Fitur Utama
+
+Role Management
+
+Super Admin: Manajemen global, template sertifikat, keamanan.
+
+Admin Modul: CRUD modul, tahap, kuis, tugas, timer.
+
+Admin Kelas: Enrol siswa, monitoring kelas.
+
+Pengajar: Review tugas, forum.
+
+Siswa: Mengikuti modul, kerjakan kuis/tugas, unduh sertifikat.
+
+CRUD Modul & Tahap
+
+Set judul, deskripsi, kompetensi, durasi.
+
+Tahap dengan: video embed, PDF, infografis, kuis (PG, TF, isian, esai), tugas/refleksi, file upload, timer minimal, prasyarat tahap.
+
+Kuis & Tugas
+
+Bank soal dengan tagging, randomisasi, skor lulus.
+
+Tugas/refleksi dengan rubrik penilaian.
+
+Anti-cheat sederhana (shuffle, satu soal per halaman).
+
+Timer Tahap
+
+Deteksi interaksi/scroll/video watched ≥ Y% sebelum lanjut.
+
+Sertifikat Otomatis
+
+Template custom (logo, tanda tangan digital).
+
+Variabel: nama siswa, judul modul, skor, tanggal, nomor seri, QR verifikasi.
+
+Analitik
+
+Progres per siswa, completion rate, rata-rata skor.
+
+Item analysis kuis, heatmap waktu belajar.
+
+Fitur Tambahan
+
+Forum diskusi per tahap.
+
+Notifikasi email/WhatsApp.
+
+Gamifikasi (badge, poin).
+
+Mode offline (PWA).
+
+Arsitektur
+
+Frontend: React.js + TailwindCSS
+
+Backend: Node.js (Express) + JWT Auth
+
+Database: PostgreSQL
+
+Storage: Cloud storage untuk video/PDF (misal Supabase storage)
+
+Integrasi: Zoom API, WhatsApp API
+
+Langkah Build
+
+Setup environment di Replit: Node.js, React, PostgreSQL.
+
+Implementasi backend REST API (CRUD modul, tahap, kuis, tugas, sertifikat, analitik).
+
+Implementasi frontend React dengan routing (Admin Dashboard, User Dashboard, Editor Modul, Halaman Tahap, Kuis, Tugas, Sertifikat).
+
+Integrasikan timer tahap dan validasi kelulusan.
+
+Implementasikan generator sertifikat PDF + QR.
+
+Deploy internal di Replit.
+
+Output akhir: LMS siap digunakan, dengan autentikasi role, manajemen modul dinamis, kuis, timer tahap, sertifikat otomatis, analitik, dan fitur tambahan sesuai spesifikasi.

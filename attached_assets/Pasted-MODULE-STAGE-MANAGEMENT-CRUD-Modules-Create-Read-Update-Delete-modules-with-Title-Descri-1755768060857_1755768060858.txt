@@ -1,0 +1,131 @@
+MODULE & STAGE MANAGEMENT (CRUD)
+
+Modules
+
+Create, Read, Update, Delete modules with:
+
+Title
+
+Description
+
+Learning objectives/competencies
+
+Estimated duration
+
+Stages per Module
+
+Each module consists of several sequential stages:
+
+Embedded video (YouTube/Vimeo)
+
+PDF viewer (via iframe or PDF.js)
+
+Infographics (images/SVG)
+
+Quizzes (MCQ, True/False, Short Answer, Essay)
+
+Reflection/task with rubric-based grading
+
+File upload (e.g., PDF, DOCX)
+
+Stage configuration options:
+
+Minimum timer (user must spend X minutes)
+
+Prerequisite stage (must complete previous to unlock next)
+
+Detect interaction before allowing progression:
+
+Scroll completion
+
+Video watched ≥ X%
+
+Form interaction / input detected
+
+🧠 QUIZ & QUESTION BANK
+
+Question Bank
+
+CRUD for questions with metadata/tagging:
+
+Type: Multiple Choice, True/False, Short Answer, Essay
+
+Tags: subject, difficulty, module, topic
+
+Randomization:
+
+Randomize question selection
+
+Shuffle answer choices
+
+Settings:
+
+Passing score (percentage)
+
+Max attempts
+
+Auto-grading (MCQ, TF, Short Answer)
+
+Manual grading for essays
+
+Anti-Cheat Features
+
+One question per page
+
+Disable going back to previous questions
+
+Timer per quiz
+
+Shuffle questions and answers
+
+📝 TASK / REFLECTION ASSIGNMENT
+
+Each stage can include a task or reflection activity
+
+Students can:
+
+Submit written reflection (text)
+
+Upload documents (PDF, Word, etc.)
+
+Rubric-based grading by instructor:
+
+Each rubric item scored from 1–4 or similar
+
+Feedback field for personalized comments
+
+🕒 INTERACTION TIMER & VALIDATION
+
+Set a minimum time requirement per stage
+
+Detect user engagement:
+
+Scroll tracking (reaching bottom of content)
+
+Video watch tracking (via YouTube API or similar)
+
+Checkbox/form interaction to unlock “Next” button
+
+Only allow progressing after validation & timer complete
+
+🎓 AUTOMATIC CERTIFICATE GENERATION
+
+Issue downloadable PDF certificate upon course completion
+
+Certificate includes:
+
+Custom template (uploadable)
+
+Student name
+
+Course title
+
+Completion date
+
+Institution logo
+
+Digital signature of instructor/admin
+
+PDF generated dynamically
+
+Tools: pdf-lib, html-pdf, or similar
